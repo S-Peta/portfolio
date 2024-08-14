@@ -6,10 +6,10 @@ export default function ProjectCard({project}) {
           <h3>{project.name}</h3>
           <p>{project.description}</p>
           <div className="button-container">
-            <a href={project.link}>
+            <a href={project.link} target="_blank">
               <button>View Project</button>
             </a>
-            <a href={project.github}>
+            <a href={project.github} target="_blank">
               <button>GitHub</button>
             </a>
           </div>

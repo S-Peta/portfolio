@@ -2,7 +2,7 @@ import ExperienceCard from "./ExperienceCard";
 
 const experiences = [
   {
-    position: "Coding Bootcamp Student",
+    position: "Coding Bootcamp",
     company: "Northcoders",
     date: "06/2024 - ongoing",
     location: "Remote",
@@ -15,10 +15,10 @@ const experiences = [
     ]
   },
   {
-    position: "Participant",
-    company: "AI Hackathon, Encode Club",
+    position: "AI Hackathon",
+    company: "Encode Club",
     date: "03/2024",
-    location: "Online",
+    location: "Canary Wharf",
     description: [
       "Contributed to a 48-hour hackathon with a team of 6, developing the Doctor AI application utilizing the Healthily API to deliver highly accurate patient diagnoses with over 96% precision.",
       "Led the front-end development efforts, transforming designs from Figma into a fully functional, responsive website. Ensured the site was intuitive and user-friendly, enhancing the overall user experience and accessibility.",
@@ -26,16 +26,7 @@ const experiences = [
     ]
   },
   {
-    position: "Student",
-    company: "FEITEP",
-    date: "02/2016 - 06/2021",
-    location: "Maringá, Brazil",
-    description: [
-      "College of Architecture and Urbanism."
-    ]
-  },
-  {
-    position: "UX Designer/Marketing Department",
+    position: "UX Designer / Marketing Department",
     company: "Toiletry Express - UK",
     date: "12/2022 - 06/2024",
     location: "London, UK",
@@ -56,6 +47,15 @@ const experiences = [
       "Designed, implemented, and shipped to production a sports items marketplace and a web app - Meet Up style."
     ]
   }
+  // {
+  //   position: "Degree",
+  //   company: "FEITEP",
+  //   date: "02/2016 - 06/2021",
+  //   location: "Maringá, Brazil",
+  //   description: [
+  //     "College of Architecture and Urbanism."
+  //   ]
+  // }
 ];
 
 export default function ExperiencesList() {
